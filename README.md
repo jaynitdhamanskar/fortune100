@@ -1,4 +1,4 @@
-# Fortune 100 Companies – Data Analytics Project
+# Fortune 100 Companies: Data Analytics Project
 
 ## Overview
 
