@@ -23,13 +23,13 @@ The data supports both exploratory analysis and executive-level business intelli
 
 ## Tools & Technologies
 
-* **Python** – Data loading, cleaning, and exploratory data analysis (EDA)
+* **Python:** Data loading, cleaning, and exploratory data analysis (EDA)
 
   * Libraries: Pandas, NumPy, Matplotlib, Seaborn
-* **PostgreSQL (SQL)** – Structured querying, aggregations, and KPI validation
-* **Power BI** – Interactive dashboard and data visualization
-* **Gamma** – Presentation (PPT) creation for storytelling and stakeholder communication
-* **Jupyter Notebook** – Analysis and documentation
+* **PostgreSQL (SQL):** Structured querying, aggregations, and KPI validation
+* **Power BI:** Interactive dashboard and data visualization
+* **Gamma:** Presentation (PPT) creation for storytelling and stakeholder communication
+* **Jupyter Notebook:** Analysis and documentation
 
 ---
 
@@ -100,5 +100,41 @@ The Power BI dashboard provides a one-page executive view of the Fortune 100 lan
 * Financials, Healthcare, and Retail are among the top revenue-generating industries
 * Revenue growth varies widely across companies, even within the same industry
 * Fortune 100 headquarters are heavily concentrated in specific U.S. states
+
+---
+
+## How to Run the Project
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2
+   ```
+
+3. **Run the Jupyter Notebook**
+
+   * Execute notebooks sequentially for EDA and data preparation
+
+4. **Set up PostgreSQL**
+
+   * Create a PostgreSQL database
+   * Load the cleaned dataset
+   * Run the provided SQL scripts
+
+5. **Open Power BI Dashboard**
+
+   * Open the `.pbix` file in Power BI Desktop
+   * Refresh data sources if required
+
+6. **Review Outputs**
+
+   * Read the analytical report for detailed insights
+   * Use the presentation for stakeholder discussions
 
 ---
